@@ -52,7 +52,7 @@
   ],
   "license": "MIT",
   "main": "./lib/express-restify-mongoose",
-  "name": "@peek4y/express-restify-mongoose",
+  "name": "@reactorcx/express-restify-mongoose",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
@@ -96,5 +96,5 @@
       "it"
     ]
   },
-  "version": "4.1.6"
+  "version": "4.1.7"
 }

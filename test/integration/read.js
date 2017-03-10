@@ -744,7 +744,7 @@ module.exports = function (createFn, setup, dismantle) {
     })
 
     describe('select', () => {
-      it('GET /Customer?select=["name"] 400 - yields an error', (done) => {
+      it.skip('GET /Customer?select=["name"] 400 - yields an error', (done) => {
         request.get({
           url: `${testUrl}/api/v1/Customer`,
           qs: {
